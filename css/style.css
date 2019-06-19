@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	font-family: poppins;
+	text-decoration: none;
+}
+header{
+	background-image: url(../image/slider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+header:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #2f2f2f96;
+	top: 0;
+	left: 0;
+}
+
+.slider-content{
+	    color: white
+}
+.slider-content h1{
+	    font-size: 22px;
+	    font-family: kaushen-script;
+	    font-style: italic;
+	    font-weight: 600;
+	    margin-top: 150px;
+	    margin-bottom: 33px;
+        color: #ffffffbf;
+}
+.slider-content span{
+	content: "";
+	width: 0;
+	height: 2px;
+	background: #ff105de0;
+	position: absolute;
+	bottom: 66%;
+	left: 50%;
+	transform: translate(-50%, -66%);
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+	}
+.slider-content:hover span{
+	width:57px;
+}
+.slider-content h2{
+	    font-size: 57px;
+	    text-transform: uppercase;
+	    font-weight: 600;
+}
+.slider-content a{
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-bottom: 250px;
+	margin-top: 15px;
+}
+.quotation-section{
+	min-height: 160px;
+	width: 100%;
+	background-color: #efefef !important;
+}
+.quotation-section .quotation{
+	color: #929292;
+	text-align: center;
+	width: 48%;
+}
+.quotation-section .quotation a{}
+.quotation-section .quotation h3{
+    font-family: kaushen-script;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+}
+.quotation-section .quotation h4{
+	font-size: 16px;
+	color: #abaaaa;
+	font-weight: 500;
+}
+.quotation-section .quote-image{
+	
+width: 38%;
+}
+.quotation-section .quote-image img{
+	max-width: 100%;
+	height: 125px;
+	display: block;
+	margin: auto;
+}
+.event-heading{
+    padding: 65px 0px;
+}
+.event-heading h5{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.event-section{
+	
+    margin-bottom: 61px;
+}
+.event-section .card{
+}
+.event-section .card img{
+  box-shadow: 11px 9px 0px 0 rgba(215, 215, 215, 0.52), 0 6px 20px 0 rgba(188, 188, 188, 0.27);
+  transition: 0.5s ease-in-out;
+}
+.event-section .card:hover img{
+  box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+.event-section .card h6{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.event-section .card p{
+    font-size: 11px;
+    color: #989898;
+    font-weight: 400;
+}
+.event-section .card a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ff105de0;
+}
+.event-section .card .image-hover{
+
+}
+
+.event-heading span{
+	content: "";
+	width: 0;
+	height: 2px;
+	background: #ff105de0;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+	}
+.event-heading:hover span{
+	width:57px;
+}
+
+.explore-section{
+	background-image: url(../image/explore.jpg);
+	background-repeat: no-repeat;
+	background-image: cover;
+    padding: 115px 0;
+    position: relative;
+}
+
+.explore-section:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1f1f1f5e;
+	top: 0;
+	left: 0;
+}
+.explore-section .explore-content{
+    color: white;
+}
+.explore-section .explore-content h5{
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 600;
+}
+.explore-section .explore-content p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.explore-section .explore-content a{
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+}
+.explore-section .explore-content span{
+	content: "";
+	width: 0;
+	height: 2px;
+	background: #ff105de0;
+	position: absolute;
+	bottom: 50%;
+	left: 3%;
+	transform: translate(0%,-50%);
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+	}
+.explore-section .explore-content:hover span{
+	
+	width:57px;
+}
+
+.tour-section{}
+.tour-section .tour-content{}
+.tour-section .tour-content h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.tour-section .tour-content p{
+    font-size: 11px;
+    color: #989898;
+    font-weight: 400;
+    margin-top: 21px;
+    margin-bottom: 25px;
+}
+.tour-section .tour-content span{
+	content: "";
+	width: 0;
+	height: 2px;
+	background: #ff105de0;
+	position: absolute;
+	left: 6%;
+	bottom: 79%;
+	transform: translate(0, -50%);
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+.tour-section .tour-content:hover span{
+	width:57px;}
+.tour-section .tour-content a{
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+}
+.tour-section .tour-content img{}
+
+footer{
+    padding: 35px 0;
+    background: black;
+    color: #dedede;
+}
+footer h1{
+	    font-size: 14px;
+}
+footer h2{
+	font-size: 14px;
+}
+footer .footer-content{
+    text-align: center;
+}
